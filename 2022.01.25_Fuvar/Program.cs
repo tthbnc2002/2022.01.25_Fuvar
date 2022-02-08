@@ -32,7 +32,7 @@ namespace _2022_01_24_Fuvar
                 if (!engedelyezettFizetesiModok.ContainsKey(f.fizetesMod)) {
                     engedelyezettFizetesiModok.Add(f.fizetesMod, 1);
                 } else {
-                    engedelyezettFizetesiModok[f.fizetesMod]++;
+                    engedelyezettFizetesiModok[f.fizetesMod]++
                 }
             });
             Console.WriteLine("5. feladat:");
